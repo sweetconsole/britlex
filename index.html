@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-adaptive.css">
+  <title>Britlex</title>
+</head>
+<body id="body">
+  <div class="menu" id="menu">
+    <button class="menu-burger-button menu-burger-button-close" onclick="closeMenu()" id="menu-burger-button">
+      <div class="menu-line-1"></div>
+      <div class="menu-line-2"></div>
+      <div class="menu-line-3"></div>
+    </button>
+
+    <div class="menu-logo logo">
+      Brit<span class="logo-gray">lex</span>
+    </div>
+    <div class="menu-line"></div>
+
+    <nav class="menu-navigation">
+      <a class="menu-link" href="#">Home</a>
+      <a class="menu-link" href="#">Skills</a>
+      <a class="menu-link" href="#">About Us</a>
+      <a class="menu-link" href="#">Pricing</a>
+      <a class="menu-link" href="#">Contacts</a>
+    </nav>
+
+    <button class="menu-button button">Let's Talk</button>
+  </div>
+
+  <div class="wrapper">
+    <div class="blackout" id="blackout"></div>
+
+    <header class="header">
+      <div class="logo">
+        Brit<span class="logo-gray">lex</span>
+      </div>
+
+      <nav class="header-navigation">
+        <a class="header-link" href="#">Home</a>
+        <a class="header-link" href="#">Skills</a>
+        <a class="header-link" href="#">About Us</a>
+        <a class="header-link" href="#">Pricing</a>
+        <a class="header-link" href="#">Contacts</a>
+      </nav>
+
+      <button class="header-button button">Let's Talk</button>
+
+      <button class="menu-burger-button" onclick="openMenu()" id="menu-burger-button">
+        <div class="menu-line-1"></div>
+        <div class="menu-line-2"></div>
+        <div class="menu-line-3"></div>
+      </button>
+    </header>
+
+    <div class="intro">
+      <div class="intro-content">
+        <h1 class="intro-title">Learn Any Foreign Language</h1>
+        <p class="intro-text">
+          With our teachers who write a program for each
+          student, you will be able to make your first
+          sketch after the first lesson.
+        </p>
+        <button class="intro-button button">Get started</button>
+
+        <img class="intro-light-bulb" src="img/light-bulb.png">
+      </div>
+
+      <img class="intro-image" src="img/intro.png">
+    </div>
+
+    <div class="skills">
+      <h2 class="skills-title title">Skills</h2>
+
+      <div class="skills-items">
+        <div class="skills-item-vertical">
+          <img src="img/skills/1.png" />
+
+          <p class="skills-name">Speaking</p>
+          <p class="skills-text">
+            Improve your English skills and confidence. Live classes and interactive 
+            lessons online. 20% extra free for a limited time only
+          </p>
+          <p class="skills-text skills-text-two">
+            Learn English online and improve your skills through our high-quality 
+            courses and resources – all designed for adult language learners.
+          </p>
+          <button class="skills-button button">Learn more</button>
+        </div>
+
+        <div class="skills-item-common-one">
+          <img src="img/skills/2.png">
+          <p class="skills-name">Writing</p>
+          <p class="skills-text">
+            One of the most important and extensive areas of natural science, the 
+            science that studies substances, also their composition 
+          </p>
+          <button class="skills-button button">Learn more</button>
+        </div>
+
+        <div class="skills-item-common-two">
+          <img src="img/skills/3.png">
+          <p class="skills-name">Reading</p>
+          <p class="skills-text">
+            perception and response actions of the user resulting from the use 
+            and/or upcoming use of the product, system or service
+          </p>
+          <button class="skills-button button">Learn more</button>
+        </div>
+
+        <div class="skills-item-horizontal">
+          <div class="skills-info">
+            <p class="skills-name">Listening</p>
+            <p class="skills-text">
+              Here you can find activities to practise your listening skills. 
+              Listening will help you to improve your understanding 
+            </p>
+            <button class="skills-button button">Learn more</button>
+          </div>
+
+          <img src="img/skills/4.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <div class="about-us-content">
+        <h2 class="about-us-title title">About Us</h2>
+        <p class="about-us-text">
+          The model offers a framework for discussing problems related to the 
+          user's experience, as well as possible ways and means of solving 
+          them. Application development begins at the top level (strategy),
+          where the future software product is described quite abstractly 
+          from the point of view of the expectations of both users and the customer.
+        </p>
+        <div class="about-us-info">
+          <div class="about-us-item">
+            <p class="about-us-number">800</p>
+            <p class="about-us-name">Pupils</p>
+          </div>
+          <div class="about-us-item">
+            <p class="about-us-number">18</p>
+            <p class="about-us-name">Teachers</p>
+          </div>
+          <div class="about-us-item">
+            <p class="about-us-number">6</p>
+            <p class="about-us-name">Foreign languages</p>
+          </div>
+        </div>
+      </div>
+      <img class="about-us-image" src="img/about-us.png" alt="about us image">
+    </div>
+
+    <div class="pricing">
+      <h2 class="pricing-title title">Pricing</h2>
+
+      <div class="pricing-items">
+        <div class="pricing-item">
+          <img class="pricing-image" src="img/pricing/1.png">
+          <p class="pricing-name">Self-study online course</p>
+          <p class="pricing-text">
+            Start learning English online in live classes with qualified EC 
+            teachers and students from all over the world.
+          </p>
+          <div class="pricing-price-block">
+            <p class="pricing-price">£5.99</p>
+            <p class="pricing-month">per month</p>
+          </div>
+        </div>
+
+        <div class="pricing-item">
+          <img class="pricing-image" src="img/pricing/2.png">
+          <p class="pricing-name">Live online classes</p>
+          <p class="pricing-text">
+            Interactive group classes with expert teachers. Free 7-day trial
+          </p>
+          <div class="pricing-price-block">
+            <p class="pricing-price">£12.99</p>
+            <p class="pricing-month">per month</p>
+          </div>
+        </div>
+
+        <div class="pricing-item">
+          <img class="pricing-image" src="img/pricing/3.png">
+          <p class="pricing-name">Personal Tuition</p>
+          <p class="pricing-text">
+            Online one-to-one English tutoring – enjoy our first session for only $1
+          </p>
+          <div class="pricing-price-block">
+            <p class="pricing-price">£20.99</p>
+            <p class="pricing-month">per month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us">
+      <img class="contact-us-image" src="img/contact-us.png">
+      <div class="contact-us-content">
+        <h2 class="contact-us-title title">Contact Us</h2>
+        <p class="contact-us-text">
+          Discover your current English level by taking our free online English test. 
+          Sign up to our newsletter for learning tips and free resources
+        </p>
+        <form class="contact-us-form">
+          <input class="contact-us-input" placeholder="Enter Your E-mail" type="email">
+          <button class="contact-us-button button" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="logo">
+          Brit<span class="logo-gray">lex</span>
+        </div>
+
+        <nav class="footer-navigation">
+          <a class="footer-link" href="#">Terms and Conditions</a>
+          <p class="footer-point">•</p>
+          <a class="footer-link" href="#">Privacy Policy</a>
+          <p class="footer-point">•</p>
+          <a class="footer-link" href="#">Cookie Policy</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

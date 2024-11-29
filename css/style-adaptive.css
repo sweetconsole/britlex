@@ -1,0 +1,970 @@
+@media (max-width: 1350px) {
+  .wrapper {
+    max-width: 930px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+
+  /* Header */
+  .header {
+    margin-top: 25px;
+    margin-bottom: 80px;
+  }
+  
+  .header-navigation {
+    width: 415px;
+  }
+  
+  .header-link {
+    font-size: 16px;
+  }
+
+  .header-button {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+
+
+  /* Intro */
+  .intro-content {
+    width: 420px;
+  }
+
+  .intro-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 64px;
+  }
+
+  .intro-text {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .intro-button {
+    border-radius: 5px;
+    padding: 20px 80px;
+    font-size: 24px;
+  }
+
+  .intro-light-bulb {
+    position: absolute;
+    top: 10%;
+    right: 40px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .intro-image {
+    width: 460px;
+    height: 460px;
+  }
+
+  /* Skills */
+  .skills {
+    margin-top: 70px; 
+  }
+
+  .skills-title {
+    width: 125px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
+
+  .skills-items {
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 490px 260px;
+  }
+
+  .skills-item-horizontal img {
+    width: 255px;
+  }  
+
+  .skills-name {
+    font-size: 22px;
+  }
+
+  .skills-text {
+    font-size: 14px;
+  }
+
+  .skills-button {
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+
+
+  /* About Us */
+  .about-us {
+    margin-top: 105px;
+  }
+
+  .about-us-image {
+    width: 335px;
+  }
+
+  .about-us-content {
+    width: 530px;
+  } 
+
+  .about-us-text {
+    font-size: 16px;
+  }
+
+  .about-us-info {
+    margin-top: 35px;
+  }
+
+  .about-us-number {
+    font-size: 30px;
+  }
+
+  .about-us-name {
+    font-size: 16px;
+  }
+
+
+  /* Pricing */
+  .pricing {
+    margin-top: 100px;
+  }
+
+  .pricing-title {
+    margin-bottom: 20px;
+  }
+
+  .pricing-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pricing-item {
+    width: 275px;
+    height: 500px;
+  }
+
+  .pricing-name {
+    top: 290px;
+    font-size: 22px;
+  }
+
+  .pricing-text {
+    top: 340px;
+    font-size: 16px;
+  }
+
+  .pricing-price-block {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    width: 240px;
+  }
+
+  .pricing-price {
+    color: #263238;
+    font-size: 30px;
+  }
+
+  .pricing-month {
+    font-size: 18px;
+    color: #546269;
+  }
+
+
+  /* Contact Us */
+  .contact-us {
+    margin-top: 140px;
+  }
+
+  .contact-us-image {
+    width: 312px;
+    height: 281px;
+  }
+
+  .contact-us-content {
+    width: 520px;
+  }
+
+  .contact-us-text {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
+  .contact-us-form {
+    margin-top: 35px;
+  }
+
+  .contact-us-input {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+
+  .contact-us-button {
+    padding: 20px 55px;
+    font-size: 16px;
+  }
+
+
+  /* Footer */
+  .footer {
+    margin-top: 160px;
+    padding-bottom: 25px;
+  }
+
+  .footer-navigation {
+    width: 420px;
+    font-size: 16px;
+  }
+
+  .footer-link {
+    color: #8F95A5;
+  }
+
+  .footer-point {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 690px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  /* Menu */
+  .menu-burger-button {
+    display: block;
+  }
+
+
+  /* Header */
+  .header {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .header-navigation {
+    display: none;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+
+  /* Intro */
+  .intro-content {
+    width: 320px;
+  }
+
+  .intro-title {
+    font-size: 36px;
+    margin-bottom: 25px;
+    line-height: 45px;
+  }
+
+  .intro-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .intro-button {
+    border-radius: 5px;
+    padding: 20px 70px;
+    font-size: 18px;
+  }
+
+  .intro-light-bulb {
+    top: 10%;
+    width: 80px;
+    height: 80px;
+  }
+
+  .intro-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  /* Skills */
+  .skills {
+    margin-top: 55px; 
+  }
+
+  .skills-title {
+    margin-bottom: 40px;
+  }
+
+  .skills-items {
+    display: grid;
+    grid-template-columns: 225px 225px 225px;
+    grid-template-rows: 440px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .skills-item-horizontal div {
+    width: 250px;
+  }
+
+  .skills-item-horizontal img {
+    width: 200px;
+    height: 135px;
+  }
+
+  .skills-name {
+    font-size: 20px;
+  }
+
+  .skills-text {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .skills-button {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px 20px;
+    line-height: 120%;
+    font-weight: var(--medium);
+  }
+
+
+  /* About Us */
+  .about-us {
+    margin-top: 50px;
+  }
+
+  .about-us-image {
+    width: 295px;
+  }
+
+  .about-us-content {
+    width: 320px;
+  } 
+
+  .about-us-text {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .about-us-info {
+    margin-top: 35px;
+  }
+
+  .about-us-number {
+    font-size: 22px;
+  }
+
+  .about-us-name {
+    margin-top: 5px;
+    color: #8F95A5;
+    font-size: 13px;
+  }
+
+
+  /* Pricing */
+  .pricing {
+    margin-top: 85px;
+  }
+
+  .pricing-title {
+    margin-bottom: 30px;
+  }
+
+  .pricing-item {
+    width: 210px;
+    height: 450px;
+    position: relative;
+  }
+
+  .pricing-name {
+    top: 230px;
+    font-size: 20px;
+  }
+
+  .pricing-text {
+    top: 300px;
+    font-size: 14px;
+  }
+
+  .pricing-price-block {
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+  }
+
+  .pricing-price {
+    font-size: 22px;
+  }
+
+  .pricing-month {
+    font-size: 16px;
+  }
+
+  /* Contact Us */
+  .contact-us {
+    margin-top: 65px;
+  }
+
+  .contact-us-image {
+    width: 233px;
+    height: 210px;
+  }
+
+  .contact-us-content {
+    width: 435px;
+  }
+
+  .contact-us-text {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .contact-us-form {
+    margin-top: 20px;
+  }
+
+  .contact-us-input {
+    margin-right: 5px;
+    padding: 15px 25px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .contact-us-button {
+    padding: 15px 40px;
+    font-size: 13px;
+    border-radius: 5px;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 110px;
+    padding-bottom: 15px;
+  }
+
+  .footer-content {
+    padding-top: 20px;
+  }
+
+  .footer-navigation {
+    width: 340px;
+    font-size: 13px;
+  }
+
+  .footer-point {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 725px) {
+  .wrapper {
+    max-width: 495px;
+  }
+
+  
+  /* Menu */
+  .menu {
+    width: 100%;
+  }
+
+  .menu-link {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+
+  /* Header */
+  .header {
+    margin-top: 55px;
+    margin-bottom: 0;
+  }
+
+
+
+  /* Intro */
+  .intro {
+    display: block;
+    position: relative;
+  }
+
+  .intro-content {
+    padding-top: 430px;
+    width: 520px;
+    text-align: center;
+  }
+
+  .intro-title {
+    font-size: 34px;
+    margin-bottom: 25px;
+    line-height: 45px;
+  }
+
+  .intro-text {
+    margin-bottom: 35px;
+    font-size: 16px;
+  }
+
+  .intro-button {
+    padding: 25px 100px;
+    font-size: 18px;
+  }
+
+  .intro-light-bulb {
+    display: none;
+  }
+
+  .intro-image {
+    position: absolute;
+    top: 0;
+    width: 424px;
+    height: 424px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+
+  /* Skills */
+  .skills {
+    margin-top: 150px; 
+  }
+
+  .skills-title {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .skills-items {
+    display: block;
+    columns: 2;
+  }
+
+  .skills-item-vertical,
+  .skills-item-common-one,
+  .skills-item-common-two,
+  .skills-item-horizontal {
+    border-radius: 5px;
+    width: 240px;
+    margin: 0;
+    height: 555px;
+    margin-bottom: 15px;
+    padding: 25px 15px; 
+    position: relative;
+  }
+
+  .skills-item-vertical img {
+    margin-bottom: 0;
+  }
+
+  .skills-item-horizontal {
+    display: block;
+    padding: 0 15px 25px 15px;
+  }
+
+  .skills-item-horizontal div {
+    width: auto;
+  }
+
+  .skills-item-vertical {
+    padding: 0 15px 25px 15px;
+  }
+  
+  .skills-item-common-one {
+    padding: 0 15px 25px 15px;
+  }
+  
+  .skills-item-common-two {
+    padding: 0 15px 25px 15px;
+  }
+
+  .skills-name {
+    font-size: 18px;
+    position: absolute;
+    top: 220px;
+  }
+
+  .skills-text {
+    position: absolute;
+    top: 250px;
+    margin-top: 12px;
+  }
+
+  .skills-text-two {
+    top: 340px;
+  }
+
+  .skills-button {
+    position: absolute;
+    width: 200px;
+    bottom: 25px;
+    padding: 15px 50px;
+    line-height: 120%;
+    font-size: 14px;
+  }
+
+
+  /* About Us */
+  .about-us {
+    margin-top: 85px;
+    display: block;
+    position: relative;
+  }
+
+  .about-us-image {
+    width: 350px;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .about-us-content {
+    width: 100%;
+  } 
+
+  .about-us-title {
+    text-align: center;
+  }
+
+  .about-us-text {
+    padding-top: 360px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .about-us-info {
+    margin-top: 50px;
+  }
+
+  .about-us-item {
+    text-align: center;
+  }
+
+  .about-us-number {
+    font-size: 24px;
+  }
+
+  .about-us-name {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+
+  /* Pricing */
+  .pricing {
+    margin-top: 135px;
+  }
+
+  .pricing-title {
+    text-align: center;
+  }
+
+  .pricing-items {
+    display: block;
+  }
+
+  .pricing-item {
+    width: 300px;
+    height: auto; 
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .pricing-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: static;
+    font-size: 24px;
+  }
+
+  .pricing-text {
+    position: static;
+    font-size: 14px;
+  }
+
+  .pricing-price-block {
+    margin: 0 auto;
+    margin-top: 20px;
+    position: static;
+    width: 205px;
+  }
+
+  .pricing-price {
+    font-size: 22px;
+  }
+
+  .pricing-month {
+    font-size: 16px;
+  }
+
+
+  /* Contact Us */
+  .contact-us {
+    margin-top: 160px;
+    display: block;
+    position: relative;
+  }
+
+  .contact-us-image {
+    width: 360px;
+    height: 320px;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .contact-us-content {
+    width: 100%;
+  }
+
+  .contact-us-title {
+    text-align: center;
+  }
+
+  .contact-us-text {
+    padding-top: 350px;
+    margin-top: 35px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .contact-us-form {
+    margin-top: 50px;
+    display: block;
+    position: relative;
+  }
+
+  .contact-us-input {
+    margin-right: 10px;
+    border: 2px solid #8F95A5;
+    color: #263238;
+    padding: 25px 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .contact-us-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 22px 55px;
+    font-size: 16px;
+    border-radius: 11px;
+  }
+
+
+  /* Footer */
+  .footer {
+    margin-top: 145px;
+    padding-bottom: 25px;
+  }
+
+  .footer-content {
+    padding-top: 25px;
+  }
+
+  .footer-navigation {
+    width: 325px;
+    font-size: 12px;
+  }
+
+  .footer-point {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    max-width: 290px;
+  }
+
+  
+  /* Menu */
+  .menu-link {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+
+
+  /* Header */
+  .header {
+    margin-top: 55px;
+    margin-bottom: 0;
+  }
+
+
+
+  /* Intro */
+  .intro {
+    display: block;
+    position: relative;
+  }
+
+  .intro-content {
+    padding-top: 315px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 36px;
+  }
+
+  .intro-text {
+    font-size: 14px;
+  }
+
+  .intro-button {
+    padding: 0;
+    font-size: 16px;
+    width: 100%;
+    height: 70px;
+  }
+
+  .intro-image {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  /* Skills */
+  .skills {
+    margin-top: 50px; 
+  }
+
+  .skills-title {
+    margin-bottom: 30px;
+  }
+
+  .skills-items {
+    columns: 1;
+  }
+
+  .skills-item-vertical,
+  .skills-item-common-one,
+  .skills-item-common-two,
+  .skills-item-horizontal {
+    width: 100%;
+    height: 470px;   
+    margin-bottom: 20px;
+  }
+
+  .skills-item-vertical {
+    height: 600px;
+  }
+
+  .skills-name {
+    top: 250px;
+  }
+
+  .skills-text {
+    position: absolute;
+    top: 280px;
+    margin-top: 12px;
+  }
+
+  .skills-text-two {
+    top: 390px;
+  }
+
+  .skills-button {
+    position: absolute;
+    width: 200px;
+    bottom: 35px;
+    padding: 15px 50px;
+    line-height: 120%;
+    font-size: 14px;
+  }
+
+
+  /* About Us */
+  .about-us {
+    margin-top: 50px;
+  }
+
+  .about-us-image {
+    width: 280px;
+    top: 80px;
+  }
+
+  .about-us-content {
+    width: 100%;
+  } 
+
+  .about-us-title {
+    text-align: center;
+  }
+
+  .about-us-text {
+    padding-top: 320px;
+    font-size: 13px;
+  }
+
+  /* Contact Us */
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .contact-us-input {
+    margin-right: 0;
+    width: 290px;
+    height: 60px;
+  }
+
+  .contact-us-button {
+    margin-top: 80px;
+    width: 290px;
+    height: 70px;
+  }
+
+
+  /* Footer */
+  .footer {
+    margin-top: 145px;
+    padding-bottom: 25px;
+  }
+
+  .footer-content {
+    padding-top: 25px;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-navigation {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .footer-point {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
